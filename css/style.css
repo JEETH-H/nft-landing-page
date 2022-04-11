@@ -23,6 +23,8 @@
 
 body {
   background-color: var(--bg-color);
+  background: url('../images/bg/12.jpg');
+  background-size: cover;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -64,12 +66,12 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  /* box-shadow: 4px 4px 0 0 var(--accent-color); */
   cursor: pointer;
   position: relative;
   text-decoration: none;
@@ -155,6 +157,14 @@ section {
   text-align: center;
 }
 
+.discription{
+  font-size: 1.1rem;
+  margin-top: 21px;
+  margin-bottom: 2rem;
+  text-align: center;
+ 
+  padding: 15px;
+}
 /* OWNER STYLES */
 
 .owner-status {
