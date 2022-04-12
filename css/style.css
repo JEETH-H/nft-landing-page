@@ -162,10 +162,31 @@ section {
   margin-top: 21px;
   margin-bottom: 2rem;
   text-align: center;
- 
+  z-index: 1;
   padding: 15px;
+  line-height: 27px;
 }
 /* OWNER STYLES */
+
+.highlight{
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  /* text-shadow: 2px 2px 0 #ffffff; */
+
+}
+.bgblck{
+  background-color: rgba(0, 0, 0, 0.666);
+  width: 100%;
+  height: 26%;
+  top: 50%;
+  position: absolute;
+  z-index: 0;
+
+}
 
 .owner-status {
   font-size: 2rem;
